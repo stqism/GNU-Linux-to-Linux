@@ -34,17 +34,17 @@ function walk(node)
 
 function handleText(textNode){
 	var textArray = [{
-		originalText: "The Cloud",
-		updatedText: "My Butt"
+		originalText: "GNU/Linux",
+		updatedText: "Linux OS"
 	},{
-		originalText: "The cloud",
-		updatedText: "My butt"
+		originalText: "gnu linux",
+		updatedText: "Linux OS"
 	}, {
-		originalText: "the Cloud",
-		updatedText: "my Butt"
+		originalText: "GNU Linux",
+		updatedText: "Linux OS"
 	}, {
-		originalText: "the cloud",
-		updatedText: "my butt",
+		originalText: "gnu/linux",
+		updatedText: "Linux OS",
 	}
 	];
 
